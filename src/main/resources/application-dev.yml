@@ -1,0 +1,9 @@
+# Tomcat
+server:
+  port: 8009      #8088 是正式端口。   8090是测试端口
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+    connection-timeout: 5000ms
+
